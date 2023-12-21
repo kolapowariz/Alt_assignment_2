@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Lexend+Deca&family=Open+Sans:wght@400;700&family=Overpass&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Lato&family=Lexend+Deca&family=Overpass&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div id="company-logo">
+        <img
+          src="/assignments/Assignment_2/images/Logo.png"
+          alt="A round disc"
+        />
+      </div>
+      <h2>For Individuals</h2>
+      <p class="hidden-1">
+        Inspiring wholesome harmony for the mind, body and spirit, for everyone,
+        everywhere.
+      </p>
+      <p class="hidden-2">
+        Start benefiting from the wellness experience. For companies looking on
+        increasing productivity, and improving organization wellness.
+      </p>
+    </header>
+
+    <main>
+      <form action="">
+        <div class="double">
+          <div>
+            <label for="first-name">First Name</label>
+            <input
+              type="text"
+              name="first-name"
+              id="first-name"
+              placeholder="Tolu"
+            />
+          </div>
+          <div>
+            <label for="last-name">Last Name</label>
+            <input type="text" name="last-name" id="last-name" />
+          </div>
+        </div>
+
+        <div class="double">
+          <div>
+            <label for="gender">Gender</label>
+            <select name="gender" id="gender">
+              <option value="">Select here</option>
+            </select>
+          </div>
+          <div>
+            <label for="dob">Date of Birth</label>
+            <input type="date" name="dob" id="dob" />
+          </div>
+        </div>
+
+        <div class="double">
+          <div>
+            <label for="weight">Weight(KG)</label>
+            <input
+              type="text"
+              name="weight"
+              id="weight"
+              placeholder="Enter Weight"
+            />
+          </div>
+          <div>
+            <label for="height">Height(CM)</label>
+            <input
+              type="text"
+              name="height"
+              id="height"
+              placeholder="Enter height here"
+            />
+          </div>
+        </div>
+        <div class="test">
+          <label for="activity">Activity Level</label>
+          <select name="activity" id="activity">
+            <option value="">Select here</option>
+          </select>
+          <label for="pass">Password</label>
+          <div class="lap">
+            <input type="password" name="pass" id="pass" />
+            <span>
+              <img src="../Assignment_2/images/show.png" alt="" id="show" />
+            </span>
+          </div>
+        </div>
+        <button>Register</button>
+      </form>
+      <p class="last">
+        By clicking Register, you agree to our <a href="">Terms of Use </a> and
+        our <a href="">Privacy Policy</a>
+      </p>
+    </main>
+  </body>
+</html>
